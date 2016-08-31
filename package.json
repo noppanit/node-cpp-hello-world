@@ -1,0 +1,32 @@
+{
+  "name": "node-cpp-hello-world",
+  "version": "1.0.0",
+  "description": "Just a simple Addon Helloworld",
+  "main": "index.js",
+  "dependencies": {
+    "node-gyp": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test",
+    "install": "node-gyp rebuild",
+    "build": "node_modules/node-gyp/bin/node-gyp.js configure build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noppanit/node-cpp-hello-world.git"
+  },
+  "keywords": [
+    "node",
+    "cpp",
+    "binding",
+    "v8"
+  ],
+  "author": "Noppanit Charassinvichai",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/noppanit/node-cpp-hello-world/issues"
+  },
+  "homepage": "https://github.com/noppanit/node-cpp-hello-world#readme"
+}
